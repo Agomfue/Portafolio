@@ -6,3 +6,7 @@
 .rounded-circle {
     object-fit: cover;
 }
+
+#contacto {
+    background-color: lightblue;
+}
