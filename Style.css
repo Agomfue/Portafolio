@@ -8,6 +8,10 @@
     color: white;
 }
 
+.nav-link {
+    cursor: pointer;
+}
+
 /*Seccion hero*/
 #inicio {
     background: linear-gradient(135deg, royalblue, cornflowerblue);
@@ -20,6 +24,13 @@
     text-align: center;
 }
 
+.card {
+    transition: transform 0.3s;
+}
+
+.card:hover {
+    transform: scale(1.03);
+}
 /*Seccion habilidades*/
 #habilidades h2 {
     text-align: center;
