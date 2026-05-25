@@ -1,0 +1,71 @@
+/*Hace que la imagen  rellene el circulo*/
+.rounded-circle {
+    object-fit: cover;
+}
+
+/*Enlaces*/
+.navbar .nav-link {
+    color: white;
+}
+
+.nav-link {
+    cursor: pointer;
+}
+
+/*Seccion hero*/
+#inicio {
+    background: linear-gradient(135deg, royalblue, cornflowerblue);
+    text-align: center;
+    color: white;
+}
+
+/*Seccion proyectos*/
+#proyectos h2 {
+    text-align: center;
+}
+
+.card {
+    transition: transform 0.3s;
+}
+
+.card:hover {
+    transform: scale(1.03);
+}
+/*Seccion habilidades*/
+#habilidades h2 {
+    text-align: center;
+}
+
+#habilidades .card {
+    text-align: center;
+}
+
+#habilidades i {
+    color: royalblue;
+}
+
+/*Seccion contacto*/
+#contacto {
+    text-align: center;
+    background-color: lightblue;
+}
+
+#contacto .btn {
+    background-color: royalblue;
+    color: white;
+}
+
+/*Seccion footer*/
+footer {
+    background-color: #212529;
+    color: white;
+    text-align: center;
+}
+
+footer a {
+    color: white;
+}
+
+footer .d-flex {
+    justify-content: center;
+}
